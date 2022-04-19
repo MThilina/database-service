@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+<!--This contains only one table since it's a demo purpose and didn't create master or reference table for a production ready level application.-->
+<!--    This will provide the simple demo behaviour -->
+
+    <include file="schema/db.initial_log.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>
